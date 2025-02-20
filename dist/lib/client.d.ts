@@ -223,7 +223,7 @@ export class RealtimeClient extends RealtimeEventHandler {
      * Updates session config and conversation config
      * @returns {Promise<true>}
      */
-    connect(): Promise<true>;
+    connect(string): Promise<true>;
     /**
      * Waits for a session.created event to be executed before proceeding
      * @returns {Promise<true>}
